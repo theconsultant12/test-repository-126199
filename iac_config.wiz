@@ -1,0 +1,8 @@
+terraform:
+  dynamicBackends:
+    dev:
+      bucket: "sola-126199-bucket"
+      prefix: "state"
+    prod:
+      bucket: "sola-126199-bucket"
+      prefix: "state"
